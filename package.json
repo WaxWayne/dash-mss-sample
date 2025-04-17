@@ -1,0 +1,34 @@
+{
+  "name": "dash-mss-sample",
+  "version": "1.0.0",
+  "description": "Smooth streaming sample player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rsbuild build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaxWayne/dash-mss-sample.git"
+  },
+  "keywords": [
+    "dashjs",
+    "mss",
+    "player"
+  ],
+  "author": "Ziad Jabri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WaxWayne/dash-mss-sample/issues"
+  },
+  "homepage": "https://github.com/WaxWayne/dash-mss-sample#readme",
+  "dependencies": {
+    "dashjs": "^5.0.1",
+    "whatwg-fetch": "^3.6.20"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.3.7",
+    "core-js": "^3.41.0",
+    "typescript": "^5.8.3"
+  }
+}
